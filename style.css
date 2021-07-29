@@ -309,9 +309,9 @@ form {
 .hero {
     color: white;
 
-    background-image: url('/assets/trailer.jpg');
+    background-image: url('/assets/hero.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 
     display: flex;
     flex-direction: column;
@@ -340,6 +340,14 @@ form {
     line-height: 1.2;
     padding: 1rem;
     max-width: 600px;
+}
+
+.hero .text .sub-title {
+    margin-bottom: 1rem;
+}
+
+.hero__text {
+    margin-bottom: 1rem;
 }
 
 /* services */
@@ -400,15 +408,19 @@ form {
 }
 
 .junk-img {
-    background-image: url(/assets/trash_removal.jpg);
+    background-image: url(/assets/trash-removal.jpg);
 }
 
 .furniture-img {
-    background-image: url(/assets/furniture_removal.jpg);
+    background-image: url(/assets/furniture-removal.jpg);
 }
 
 .cleanout-img {
     background-image: url(/assets/cleanout.jpg);
+}
+
+.dumping-img {
+    background-image: url(/assets/dumping.jpg);
 }
 
 .all__services {
